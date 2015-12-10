@@ -1,0 +1,19 @@
+<ion-view view-title="Account">
+  <ion-content>
+   <!--  <ion-list>
+    <ion-item ng-repeat="language in languages" ng-click="langSelected(language)">{{language.name}}</ion-item>
+    <ion-item><pre>{{languages | json}}<pre></ion-item>
+
+    </ion-list> -->
+    <div class="list">
+    	<label class="item item-radio" ng-repeat="language in languages" ng-click="langSelected(language)">
+    		<input type="radio" name="group">
+    		<div class="item-content">
+    			{{language.name}}
+			</div>
+
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+	</div>
+  </ion-content>
+</ion-view>

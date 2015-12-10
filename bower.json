@@ -1,0 +1,29 @@
+{
+  "name": "HelloIonic",
+  "private": true,
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.1.1",
+    "ionic-platform-web-client": "~0.2.1"
+  },
+  "dependencies": {
+    "angular-ui-clock": "~0.5.0",
+    "Ionicons": "ionicons#~2.0.1"
+  },
+  "version": "0.0.0",
+  "authors": [
+    "Anup Bhujle <abhujle7@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
+}
